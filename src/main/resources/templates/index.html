@@ -6,5 +6,19 @@
 </head>
 <body>
 <h2>Student Home Page</h2>
+<a href="/student/list"> List of Students</a><br>
+<a href="/student/new"> add new Student</a>
+<form action="/student/id">
+    <input name="studentId" type="text" placeholder="id">
+    <input name="firstName" type="text" placeholder="firstname">
+    <input name="lastName" type="text" placeholder="lastname">
+    <input type="submit" >
+</form>
+
+<form action="/student/update">
+    <input name="id" type="text" placeholder="update">
+    <input type="submit" >
+</form>
+
 </body>
 </html>

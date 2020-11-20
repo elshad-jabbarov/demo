@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Student data</title>
+</head>
+<body>
+<form action="#" th:action="@{/student/save}" th:object="${student}" method="post">
+   student id <input type="text"  th:field="*{studentId}"><br>
+ Student first name   <input type="text"  th:field="*{firstName}"><br>
+  Student las name  <input type="text"  th:field="*{lastName}"><br>
+    <input type="submit" value="Save">
+</form>
+</body>
+</html>

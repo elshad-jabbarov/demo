@@ -23,4 +23,11 @@ public class Student {
             joinColumns = @JoinColumn(name = "student_id"),
             inverseJoinColumns = @JoinColumn(name = "course_id"))
     List<Course> courses;
+
+//    public Student(Integer studentId, String firstName, String lastName) {
+//        this.studentId = studentId;
+//        this.firstName = firstName;
+//        this.lastName = lastName;
+//        this.courses = courses;
+//    }
 }
